@@ -1,0 +1,336 @@
+.navbar {
+    padding: 0.5rem 1rem;
+   margin-top: 30px;
+   position: fixed;
+
+  }
+  .white {   
+     background-color: white !important;
+    }   
+
+  .nav-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+  }
+
+  .navbar-brand img {
+    height: 25px;
+    padding-top: 10;
+    margin-bottom: 20px;
+
+   
+    
+  }
+
+  .search-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  @media (max-width: 991px) {
+    .nav-center {
+      position: static;
+      transform: none;
+      margin: auto;
+    }
+  }
+  .color > li > a {
+color: black;
+  }
+.black {
+  text-align: center;
+  margin-bottom: 0;
+
+  
+}
+.black > h1{
+font-weight: bolder;
+font-size: 60px;
+padding-bottom: 10px;
+
+}
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+ /** Text Gradient Example */ 
+.text-gradient {
+  color: #4B0082; 
+  background-image: linear-gradient(45deg, #60228d , #2207be , #aa10c9 , #bd2532, #f06819 ,    #fcff4b); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+ }
+.bot{
+  margin-top: 145px;
+  font-size: medium;
+}
+  .black > h2{
+    padding-bottom: 20px;
+  }
+.back-img{
+    background: url("https://www.apple.com/v/home/cd/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_large.jpg");
+    height:400px;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+.black > .but1{
+background-color: rgb(39, 39, 245);
+color: white;
+font-size: larger;
+border-radius: 40px;
+font-size: larger;
+padding-right: 15px;
+padding-left: 15px;
+ margin-bottom: 20px;
+
+ border: none;
+}
+.black > .but2{
+  color: blue;
+  background-color: white ;
+  border: 1px solid blue;
+  border-radius: 30px;
+  margin-left: 20px;
+  font-size: larger;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+.black > .but2:hover{
+  background-color: blue ;
+  color: white;
+  border: none;
+}
+.watch{
+  background-image: url("https://www.apple.com/v/home/cd/images/heroes/apple-watch-series-10/hero_apple_watch_series_10_avail_lte__esu66gaw6dci_large.jpg");
+  height: 600px;
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.apple {
+  text-align: center;
+
+}
+.apple > img{
+  padding-top: 20px;
+}
+.h1{
+  padding-top: 10px;
+ text-align: center;
+}
+.apple > .but1{
+  background-color: rgb(39, 39, 245);
+  color: white;
+  font-size: larger;
+  border-radius: 30px;
+  font-size: larger;
+  padding-right: 10px;
+  padding-left: 10px;
+   margin-bottom: 20px;
+  }
+  .fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .female{
+    background-image: url("https://www.apple.com/v/home/cd/images/heroes/mothers-day-2025/hero_md25__ca4cocy2qlv6_large.png");
+    height: 600px;
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+        margin: 10px;
+  }
+.mom{
+  text-align: center;
+ padding-top: 400px;
+}
+.mom > h1{
+  font-weight: bolder;
+font-size: 60px;
+}
+.mom > button{
+  background-color: #350deb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.back-img {
+  margin-bottom: 10px !important;
+}
+
+.watch {
+  margin-top: 0 !important;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px 30px;
+}
+
+.box {
+  background-color: #f5f5f5;
+ 
+  text-align: center;
+  flex: 1;
+ 
+}
+
+.box h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.box button {
+  background-color: #350deb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.mac-img {
+  background-image: url("https://www.apple.com/v/home/ce/images/promos/macbook-air/promo_macbook_air_avail__e8ksaudoisey_large.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 400px;
+ padding-top: 20px;
+
+}
+.mac-img2{
+  background-image: url("https://www.apple.com/v/home/ce/images/promos/mac-does-that/promo_mac_does_that__ckozfqcs65w2_large.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 400px;
+ padding-top: 20px;
+
+}
+.mac-img3{
+  background-image: url("https://www.apple.com/v/home/ce/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 400px;
+ padding-top: 30px;
+ 
+}
+.mac-img4{
+  background-image: url("https://www.apple.com/v/home/ce/images/promos/apple-card-gradient/promo_apple_card_gradient__f2e2582vf1u2_large.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 400px;
+ padding-top: 30px;
+}
+.mac-img3 > img{
+  margin-bottom: 10px;
+}
+
+ 
+.bottom-section {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  gap: 30px;
+}
+
+.bottom-box {
+  flex: 1;
+  text-align: center;
+  padding: 30px 20px;
+  border-top: 1px solid #ccc;
+}
+
+.highlight {
+  background-color: limegreen;
+  padding: 0 5px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .main-container, .bottom-section {
+    flex-direction: column;
+  }
+}
+.carousel-item{
+  height: 600px;
+  margin-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  
+}
+.carousel-item:hover{
+  opacity: 0.5;
+  
+}
+.footer {
+  background-color: #f5f5f7;
+  padding: 40px;
+  color: #6e6e73;
+  font-size: 14px;
+  margin-top: 20px;
+  
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+.footer-section h4 {
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #1d1d1f;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-section ul li {
+  margin: 6px 0;
+}
+.footer-section ul li a {
+  text-decoration: none;
+  color: #6e6e73;
+}
+.footer-note {
+  max-width: 1200px;
+  margin: 30px auto 0;
+  font-size: 12px;
+  color: #6e6e73;
+  border-top: 1px solid #d2d2d7;
+  padding-top: 20px;
+}
+.footer-note a {
+  color: #0066cc;
+  text-decoration: none;
+}
